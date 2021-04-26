@@ -199,3 +199,5 @@ apache_1  | 172.18.0.1 - - [16/Jul/2018:02:09:22 +0000] "GET / HTTP/1.1" 200 108
 ### Conclusion
 
 With these basic principals you can link services together to create applications. You could easily include "composer" in the PHP container to build and run your PHP/Laravel application in a similar manner. Perhaps you want to run Drupal or Wordpress and decouple PHP from the Apache instance, that is possible too! You can even use this to seamlessly test PHP version or MySQL version upgrades with minimal code change. There are a lot of benefits to modernizing your application with Docker using docker-compose and some of the latest images and features.
+
+##THis is comment 1 for checking slave is getting actual git repo
