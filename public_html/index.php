@@ -9,7 +9,7 @@ $conn = new mysqli($host, $user, $pass);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } else {
-     echo "Congrats Nibbu Connected to MySQL successfully!"
+     echo "<label id='nib1'>Congrats Nibbu Connected to MySQL successfully!</label>";
 }
 
 ?>
