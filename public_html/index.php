@@ -5,11 +5,11 @@ $host = 'mysql';
 $user = 'root';
 $pass = 'rootpassword';
 $conn = new mysqli($host, $user, $pass);
-$sucMsg = 'Congrats Nibbu Connected to MySQL successfully!'
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } else {
-    <label id=nib1> echo $sucMsg </label>;
+    <label id=nib1> echo "Congrats Nibbu Connected to MySQL successfully!" </label>;
 }
 
 ?>
